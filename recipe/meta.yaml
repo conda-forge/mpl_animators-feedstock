@@ -1,5 +1,5 @@
 {% set name = "mpl_animators" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a7c00f386699291e8ce8f842e81f3e4051a4e5ee01a18cee2acc2e6d40b9d327
+  sha256: 5e2591ee2b3bb044d06cfae452c10fdbd6c78d91585091510cb8a74456ab7f97
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -42,7 +42,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
-  summary: 'Interactive animations with matplotlib'
+  summary: Interactive animations with matplotlib
   doc_url: https://docs.sunpy.org/projects/mpl-animators
   dev_url: https://github.com/sunpy/mpl-animators
 
