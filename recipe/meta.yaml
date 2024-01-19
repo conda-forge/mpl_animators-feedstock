@@ -1,5 +1,5 @@
 {% set name = "mpl_animators" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0be5f0518e379599f24f7fbe75f2ec73d0092c2cba40813c4df30e9b8fac728a
+  sha256: 0ba5ac460bd764fde30e9b5b0714673446f0cfbb1a30d5040ade0e3434d40d1d
 
 build:
   noarch: python
