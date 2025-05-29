@@ -31,7 +31,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mpl_animators-green.svg)](https://anaconda.org/conda-forge/mpl_animators) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mpl_animators.svg)](https://anaconda.org/conda-forge/mpl_animators) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mpl_animators.svg)](https://anaconda.org/conda-forge/mpl_animators) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mpl_animators.svg)](https://anaconda.org/conda-forge/mpl_animators) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mpl__animators-green.svg)](https://anaconda.org/conda-forge/mpl_animators) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mpl_animators.svg)](https://anaconda.org/conda-forge/mpl_animators) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mpl_animators.svg)](https://anaconda.org/conda-forge/mpl_animators) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mpl_animators.svg)](https://anaconda.org/conda-forge/mpl_animators) |
 
 Installing mpl_animators
 ========================
